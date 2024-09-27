@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  .header {
+    height: 80px;
+    background-color:#666666;
+    
+  }
+  .container {
+    margin:30px auto;
+    width: 90%;
+    display: flex;
+    gap: 5%;
+  }
+  .headcomp1{
+    display: flex;
+
+    justify-content: space-between;
+  }
+  .links{
+    display: flex;
+  gap: 5px;
+ 
+
+  }
+
+.links .linkC{
+    background: #c7c7c7;
+    min-width: 100px;
+    
+}
+
+.links .linkC:first-child{
+    background: #666666;
+
+}
+.material-icons{
+    color: #c7c7c7;
+    font-weight: bolder;
+}
+.main{
+    min-height: 30vh;
+    background:#666666;
+}
+.main2{
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+gap: 3%;
+}
+.sub{
+  
+    min-width: 12%;
+
+}
+.square {
+    margin-top: 40px;
+    width: 150px;
+    height: 120px; 
+    background-color: #ccc;
+    margin-bottom: 10px;
+  }
+  
+  .horizontal-blocks {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    gap: 5px; /* Space between blocks */
+  }
+  
+  .horizontal-block {
+    height: 20px; 
+    background-color: #ddd;
+  }
+  .group-blocks{
+    min-height: 40px;
+   
+    display: flex;
+    gap: 10%;
+  }
+   .horizontal-block1{
+width: 65%;
+background-color: #ddd;
+height: 20px;
+  }
+  .horizontal-block2{
+    width: 25%;
+    background-color: #ddd;
+    height: 20px;
+      }
+
+   .rightLink{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    height: 40px;
+   }   
+   .linkL{
+    background-color: #ddd;
+    min-width: 30px;
+    margin-bottom: 10px;
+   }
+
+   .main3{
+    min-height: 30vh;
+    background:#ddd;
+   }
+   .slice{
+    min-height: 3vh;
+    background:#666666;
+ margin-top: 40px;
+
+
+   }
+
+.sub2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 30px;
+
+}
+.square2{
+    height: 10vh;
+    min-width: 10vh;
+    background: #ddd;
+}
+.horizontal-blockR{
+    min-width: 90%;
+    background:#ddd;
+    min-height: 10px;
+  
+    margin-left: 15px;
+}
+.horizontal-blocksR2{
+    width: 100%;
+    background: #ddd;
+    height: 10px;
+    margin-top: 10px;
+}
+.horizontal-blocksR3{
+    width: 100%;
+    background: #666666;
+    height: 8px;
+    margin-top: 50px;
+}
